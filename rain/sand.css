@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Arsenal');
+h1 {
+	font-size: 40px;
+	font-family: 'Arsenal', sans-serif;
+	text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 42%;
+}
+
+#file{
+    position: absolute;
+    left: 44%;
+    top: 55%;
+    font-family: 'Arsenal', sans-serif;
+    cursor: pointer;
+}
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.snowflake {
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: blue;
+    user-select: none;
+    z-index: 1000;
+}
+.snowflake:hover {
+    cursor: default;
+}
